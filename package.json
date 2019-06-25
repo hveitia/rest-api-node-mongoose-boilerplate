@@ -1,0 +1,30 @@
+{
+  "name": "mi_boilerplate_mongoose",
+  "version": "1.0.0",
+  "description": "This is a boilerplate for node - express - mongoose projects",
+  "author": "Hésctor Veitía",
+  "scripts": {
+    "dev": "node app.js",
+    "start": "npx pm2 start pm2.yaml",
+    "test": "jest"
+  },
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^5.0.0-alpha.7",
+    "forEachAsync": "^3.0.0",
+    "fs": "0.0.1-security",
+    "jwt-simple": "^0.5.0",
+    "method-override": "^2.1.2",
+    "moment": "^2.17.1",
+    "mongoose": "^5.6.0",
+    "nodemailer": "^3.1.1",
+    "pm2": "^3.2.9",
+    "random-js": "^1.0.8",
+    "validatorjs": "^3.15.1"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
